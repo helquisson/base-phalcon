@@ -2,3 +2,4 @@
 .settings
 .buildpath
 .project
+app/cache/*.php
