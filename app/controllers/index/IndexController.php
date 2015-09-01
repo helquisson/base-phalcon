@@ -6,6 +6,6 @@ use App\Controllers\ControllerBase;
 
 class IndexController extends ControllerBase {
 	public function indexAction() {
-		
+		$this->view->partial('index/index');
 	}
 }
